@@ -1,0 +1,6 @@
+<h1>Send Message via Elibom</h1>
+<%= form_tag send_message_path do  %>
+  <%= text_field_tag :number %>
+  <%= text_area(:message, cols: 10, rows: 50) %>
+  <button name="button" type="submit">Send</button>
+<%end %>
